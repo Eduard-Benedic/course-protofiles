@@ -15,8 +15,19 @@ message HelloResponse {
   string greet = 1;
 }
 
+message GoodbyeRequest {
+  string name = 1;
+  string country = 2;
+}
+
+message GoodbyeResponse {
+  string send_off_message = 1;
+}
+
 service HelloService {
   rpc SayHello(HelloRequest) returns (HelloResponse) {}
+  rpc SayGoodbye(GoodbyeRequest) returns (GoodbyeResponse) {}
+
   // rpc SayManyHellos(HelloRequest) returns (stream HelloResponse) {}
   // rpc SayHelloToEveryone(stream HelloRequest) returns (HelloResponse) {}
   // rpc SayHelloContinuous(stream HelloRequest) returns (stream HelloResponse) {}
