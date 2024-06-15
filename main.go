@@ -3,8 +3,9 @@ package main
 import (
 	"fmt"
 	"log"
-	"my-protobuf/car"
 	"time"
+
+	"github.com/Eduard-Benedic/course-protofiles/car"
 )
 
 type logWriter struct {

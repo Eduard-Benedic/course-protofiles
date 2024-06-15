@@ -2,7 +2,8 @@ package car
 
 import (
 	"log"
-	"my-protobuf/protogen/car"
+
+	"github.com/Eduard-Benedic/course-protofiles/protogen/car"
 
 	"github.com/google/uuid"
 )

@@ -1,5 +1,5 @@
 # Change this to your own Go module
-GO_MODULE := my-protobuf
+GO_MODULE := github.com/Eduard-Benedic/course-protofiles
 
 
 .PHONY: tidy

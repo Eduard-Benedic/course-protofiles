@@ -1,4 +1,4 @@
-module my-protobuf
+module github.com/Eduard-Benedic/course-protofiles
 
 go 1.20
 

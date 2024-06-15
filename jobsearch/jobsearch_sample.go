@@ -2,9 +2,10 @@ package jobsearch
 
 import (
 	"log"
-	"my-protobuf/protogen/basic"
-	"my-protobuf/protogen/dummy"
-	"my-protobuf/protogen/jobsearch"
+
+	"github.com/Eduard-Benedic/course-protofiles/protogen/basic"
+	"github.com/Eduard-Benedic/course-protofiles/protogen/dummy"
+	"github.com/Eduard-Benedic/course-protofiles/protogen/jobsearch"
 
 	"google.golang.org/protobuf/encoding/protojson"
 )

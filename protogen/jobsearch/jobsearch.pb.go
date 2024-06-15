@@ -9,8 +9,8 @@ package jobsearch
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	basic "my-protobuf/protogen/basic"
-	dummy "my-protobuf/protogen/dummy"
+	basic "github.com/Eduard-Benedic/course-protofiles/protogen/basic"
+	dummy "github.com/Eduard-Benedic/course-protofiles/protogen/dummy"
 	reflect "reflect"
 	sync "sync"
 )

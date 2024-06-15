@@ -3,7 +3,8 @@ package basic
 import (
 	"log"
 	"math/rand"
-	"my-protobuf/protogen/basic"
+
+	"github.com/Eduard-Benedic/course-protofiles/protogen/basic"
 
 	"google.golang.org/genproto/googleapis/type/date"
 	"google.golang.org/genproto/googleapis/type/latlng"

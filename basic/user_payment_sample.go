@@ -2,7 +2,8 @@ package basic
 
 import (
 	"log"
-	"my-protobuf/protogen/basic"
+
+	"github.com/Eduard-Benedic/course-protofiles/protogen/basic"
 
 	"google.golang.org/protobuf/encoding/protojson"
 )
